@@ -7,6 +7,7 @@ import ErrorPage from './pages/errorpage/ErrorPage'
 import Home from './pages/home/Home'
 import AllDonation from './pages/AllDontion/AllDonation'
 import Statistics from './pages/Statistics/Statistics'
+import DonationDetail from './pages/DonationDetail/DonationDetail'
 
 const router = createBrowserRouter([
   {
@@ -19,8 +20,13 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
-        path: "/donation",
+        path: "/donations",
         element: <AllDonation></AllDonation>,
+      },
+      {
+        path: "/donation/:id",
+        element: <DonationDetail></DonationDetail>,
+        loader: ()=> fetch("/details.json")
       },
       {
         path: "/statistics",

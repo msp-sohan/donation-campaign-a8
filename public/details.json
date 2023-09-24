@@ -1,0 +1,134 @@
+[
+   {
+      "id": 1,
+      "picture": "https://i.ibb.co/W6X43pL/rectangle-1.jpg",
+      "title": "Clean water for children",
+      "category": "Health",
+      "card_bg": "bg-blue-500",
+      "text_color": "text-blue-500",
+      "btn_bg": "#0052FF",
+      "description": "Provide clean and safe drinking water to children in underserved communities. Your donation will help improve their health and well-being. Join us in making a difference today!",
+      "price": 50
+   },
+   {
+      "id": 2,
+      "picture": "https://i.ibb.co/3cfNCgP/rectangle-2.jpg",
+      "title": "Good education",
+      "category": "Education",
+      "card_bg": "bg-red-500",
+      "text_color": "text-red-500",
+      "btn_bg": "#0052FF33",
+      "description": "Support quality education initiatives for children around the world. Your contribution will provide access to educational resources and opportunities for a brighter future.",
+      "price": 30
+   },
+   {
+      "id": 3,
+      "picture": "https://i.ibb.co/VmNmmdj/rectangle-3.jpg",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "card_bg": "bg-green-500",
+      "text_color": "text-green-500",
+      "btn_bg": "#ffca28",
+      "description": "Donate gently used clothing to support our clothing drive. Your contribution will help those in need and reduce waste. Join us in making a positive impact on the environment and communities.",
+      "price": 15
+   },
+   {
+      "id": 4,
+      "picture": "https://i.ibb.co/3c4zmMk/rectangle-4.jpg",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "card_bg": "bg-amber-500",
+      "text_color": "text-amber-500",
+      "btn_bg": "#42a5f5",
+      "description": "Contribute to providing better food options for everyone. Your donation will support initiatives to combat hunger and promote access to nutritious meals.",
+      "price": 20
+   },
+   {
+      "id": 5,
+      "picture": "https://i.ibb.co/3c4zmMk/rectangle-4.jpg",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "card_bg": "bg-amber-500",
+      "text_color": "text-amber-500",
+      "btn_bg": "#42a5f5",
+      "description": "Contribute to providing better food options for everyone. Your donation will support initiatives to combat hunger and promote access to nutritious meals.",
+      "price": 20
+   },
+   {
+      "id": 6,
+      "picture": "https://i.ibb.co/VmNmmdj/rectangle-3.jpg",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "card_bg": "bg-green-500",
+      "text_color": "text-green-500",
+      "btn_bg": "#ffca28",
+      "description": "Donate gently used clothing to support our clothing drive. Your contribution will help those in need and reduce waste. Join us in making a positive impact on the environment and communities.",
+      "price": 15
+   },
+   {
+      "id": 7,
+      "picture": "https://i.ibb.co/3cfNCgP/rectangle-2.jpg",
+      "title": "Good education",
+      "category": "Education",
+      "card_bg": "bg-red-500",
+      "text_color": "text-red-500",
+      "btn_bg": "#0052FF33",
+      "description": "Support quality education initiatives for children around the world. Your contribution will provide access to educational resources and opportunities for a brighter future.",
+      "price": 30
+   },
+   {
+      "id": 8,
+      "picture": "https://i.ibb.co/W6X43pL/rectangle-1.jpg",
+      "title": "Clean water for children",
+      "category": "Health",
+      "card_bg": "bg-blue-500",
+      "text_color": "text-blue-500",
+      "btn_bg": "#0052FF",
+      "description": "Provide clean and safe drinking water to children in underserved communities. Your donation will help improve their health and well-being. Join us in making a difference today!",
+      "price": 50
+   },
+   {
+      "id": 9,
+      "picture": "https://i.ibb.co/W6X43pL/rectangle-1.jpg",
+      "title": "Clean water for children",
+      "category": "Health",
+      "card_bg": "bg-blue-500",
+      "text_color": "text-blue-500",
+      "btn_bg": "#0052FF",
+      "description": "Provide clean and safe drinking water to children in underserved communities. Your donation will help improve their health and well-being. Join us in making a difference today!",
+      "price": 50
+   },
+   {
+      "id": 10,
+      "picture": "https://i.ibb.co/3cfNCgP/rectangle-2.jpg",
+      "title": "Good education",
+      "category": "Education",
+      "card_bg": "bg-red-500",
+      "text_color": "text-red-500",
+      "btn_bg": "#0052FF33",
+      "description": "Support quality education initiatives for children around the world. Your contribution will provide access to educational resources and opportunities for a brighter future.",
+      "price": 30
+   },
+   {
+      "id": 11,
+      "picture": "https://i.ibb.co/VmNmmdj/rectangle-3.jpg",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "card_bg": "bg-green-500",
+      "text_color": "text-green-500",
+      "btn_bg": "#ffca28",
+      "description": "Donate gently used clothing to support our clothing drive. Your contribution will help those in need and reduce waste. Join us in making a positive impact on the environment and communities.",
+      "price": 15
+   },
+   {
+      "id": 12,
+      "picture": "https://i.ibb.co/3c4zmMk/rectangle-4.jpg",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "card_bg": "bg-amber-500",
+      "text_color": "text-amber-500",
+      "btn_bg": "#42a5f5",
+      "description": "Contribute to providing better food options for everyone. Your donation will support initiatives to combat hunger and promote access to nutritious meals.",
+      "price": 20
+   }
+]

@@ -1,0 +1,98 @@
+[
+   {
+      "id": 1,
+      "picture": "https://i.ibb.co/W6X43pL/rectangle-1.jpg",
+      "title": "Clean water for children",
+      "category": "Health",
+      "card_bg": "bg-blue-500",
+      "text_color": "text-blue-500"
+   },
+   {
+      "id": 2,
+      "picture": "https://i.ibb.co/3cfNCgP/rectangle-2.jpg",
+      "title": "Good education",
+      "category": "Education",
+      "card_bg": "bg-red-500",
+      "text_color": "text-red-500"
+   },
+   {
+      "id": 3,
+      "picture": "https://i.ibb.co/VmNmmdj/rectangle-3.jpg",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "card_bg": "bg-green-500",
+      "text_color": "text-green-500"
+   },
+   {
+      "id": 4,
+      "picture": "https://i.ibb.co/3c4zmMk/rectangle-4.jpg",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "card_bg": "bg-amber-500",
+      "text_color": "text-amber-500"
+   },
+   {
+      "id": 5,
+      "picture": "https://i.ibb.co/3c4zmMk/rectangle-4.jpg",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "card_bg": "bg-amber-500",
+      "text_color": "text-amber-500"
+   },
+   {
+      "id": 6,
+      "picture": "https://i.ibb.co/VmNmmdj/rectangle-3.jpg",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "card_bg": "bg-green-500",
+      "text_color": "text-green-500"
+   },
+   {
+      "id": 7,
+      "picture": "https://i.ibb.co/3cfNCgP/rectangle-2.jpg",
+      "title": "Good education",
+      "category": "Education",
+      "card_bg": "bg-red-500",
+      "text_color": "text-red-500"
+   },
+   {
+      "id": 8,
+      "picture": "https://i.ibb.co/W6X43pL/rectangle-1.jpg",
+      "title": "Clean water for children",
+      "category": "Health",
+      "card_bg": "bg-blue-500",
+      "text_color": "text-blue-500"
+   },
+   {
+      "id": 9,
+      "picture": "https://i.ibb.co/W6X43pL/rectangle-1.jpg",
+      "title": "Clean water for children",
+      "category": "Health",
+      "card_bg": "bg-blue-500",
+      "text_color": "text-blue-500"
+   },
+   {
+      "id": 10,
+      "picture": "https://i.ibb.co/3cfNCgP/rectangle-2.jpg",
+      "title": "Good education",
+      "category": "Education",
+      "card_bg": "bg-red-500",
+      "text_color": "text-red-500"
+   },
+   {
+      "id": 11,
+      "picture": "https://i.ibb.co/VmNmmdj/rectangle-3.jpg",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "card_bg": "bg-green-500",
+      "text_color": "text-green-500"
+   },
+   {
+      "id": 12,
+      "picture": "https://i.ibb.co/3c4zmMk/rectangle-4.jpg",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "card_bg": "bg-amber-500",
+      "text_color": "text-amber-500"
+   }
+]
