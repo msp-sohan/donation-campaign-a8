@@ -11,7 +11,7 @@ const Home = () => {
 
 	return (
 		<div className="mb-20">
-			<Banner onSearch={handleSearchText} />
+			<Banner onSearch={handleSearchText}></Banner>
 			<div className="container mx-auto my-20 px-3 xl:px-0">
 				<DonationCards getSearchResult={getSearchResult}></DonationCards>
 			</div>

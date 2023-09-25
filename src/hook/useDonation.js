@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const useDonation = () => {
 	const [donations, setDonations] = useState([]);
 	useEffect(() => {
-		fetch("/public/details.json")
+		fetch("https://mspsohan.github.io/donation_campaign/donation_campaign.json")
 			.then((res) => res.json())
 			.then((data) => setDonations(data));
 	}, []);

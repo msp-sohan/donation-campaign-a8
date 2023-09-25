@@ -3,11 +3,10 @@ import DonationCard from "./DonationCard";
 
 const DonationCards = ({ getSearchResult }) => {
 	const [donationCard, setDonationCard] = useState([]);
-	// const [searchValue, setSearchValue] = useState(""); // State for search input value
 	const [filteredDonationCards, setFilteredDonationCards] = useState([]);
 
 	useEffect(() => {
-		fetch("/donation.json")
+		fetch("https://mspsohan.github.io/donation_campaign/donation_campaign.json")
 			.then((res) => res.json())
 			.then((data) => setDonationCard(data));
 	}, []);

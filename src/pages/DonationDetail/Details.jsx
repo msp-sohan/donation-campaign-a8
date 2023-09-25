@@ -28,8 +28,8 @@ const Details = ({ donations }) => {
 				<img src={picture} alt="" className="h-80 md:h-96 lg:h-[calc(100vh-20vh)]  w-full" />
 				<div className="absolute bg-black bg-opacity-50 w-full bottom-0 h-24 lg:h-32 flex justify-start items-center">
 					<button
-						onClick={handleDonate}
-						className={`ml-5 md:ml-16 px-3 md:px-7 ${card_bg} py-3 font-semibold text-xl rounded-md text-white bg-opacity-100`}
+						onClick={handleDonate} style={{backgroundColor: dynamicColor}}
+						className={`ml-5 md:ml-16 px-3 md:px-7 py-3 font-semibold text-xl rounded-md text-white bg-opacity-100`}
 					>
 						Donate ${price}
 					</button>
