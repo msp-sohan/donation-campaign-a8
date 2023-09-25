@@ -1,31 +1,47 @@
-
 const Banner = () => {
-   return (
-      <div className="h-[70vh] relative bg-black bg-opacity-10 mx-auto">
-         <img
-            className="h-full w-full opacity-10 bg-opacity-25 bg-black "
-            src="https://i.ibb.co/FmHySkB/Rectangle-4281.jpg"
-            alt=""
-         />
-         <div className="absolute top-[50%]  left-[10%] md:left-[20%] xl:left-[30%] right-[10%] md:right-[20%] xl:right-[30%]">
-
-               <div className="relative mb-4 flex w-full flex-wrap items-stretch">
-                  <input
-                     type="search"
-                     className="relative m-0 -mr-0.5 block w-[1px] min-w-0 flex-auto rounded-l border bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none dark:border-neutral-600 dark:text-neutral-200 dark:placeholder:text-black dark:focus:border-primary"
-                     placeholder="Search Here..."
-                     aria-label="Search"
-                     aria-describedby="button-addon3" />
-                  <button
-                     className="relative z-[2] bg-[#FF444A] text-white rounded-r-lg border-2 border-primary px-6 py-3 text-xs font-medium uppercase text-primary transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-60 focus:outline-none focus:ring-0"
-                     type="button"
-                     id="button-addon3"
-                     data-te-ripple-init>
-                     Search
-                  </button>
-               </div>
-            </div>
-         {/* <div className="searchbar absolute bottom-[43%] justify-center px-20">
+	return (
+		<div className="h-[70vh] relative bg-black bg-opacity-10 mx-auto flex flex-col justify-center items-center">
+			<img className="h-full w-full opacity-10 bg-opacity-25 bg-black " src="https://i.ibb.co/FmHySkB/Rectangle-4281.jpg" alt="" />
+			<div className="absolute text-center">
+				<h1 className="text-5xl mb-10 font-bold">I Grow By Helping People In Need</h1>
+				<form action="" className="my-4 relative flex w-full flex-wrap items-stretch">
+					<input
+						type="search"
+						className="relative m-0 -mr-0.5 block w-[1px] min-w-0 flex-auto rounded-l border border-solid border-neutral-400 bg-transparent bg-clip-padding px-4 py-[0.75rem] text-xl font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none dark:border-neutral-60 dark:text-neutral-200 dark:placeholder:text-slate-700 dark:focus:border-primary"
+						placeholder="Search here..."
+						aria-label="Search"
+						aria-describedby="button-addon1"
+					/>
+					<button
+						className="relative z-[2] flex items-center rounded-r bg-red-500 px-6 py-2.5 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg"
+						type="button"
+						id="button-addon1"
+						data-te-ripple-init
+						data-te-ripple-color="light"
+					> Search</button>
+				</form>
+			</div>
+			{/* <div className="absolute top-[50%]  left-[10%] md:left-[20%] xl:left-[30%] right-[10%] md:right-[20%] xl:right-[30%]">
+				<h1 className="text-xl font-bold text-center -mt-12 mb-12">I Grow By Helping People In Need</h1>
+				<div className="relative mb-4 flex w-full flex-wrap items-stretch">
+					<input
+						type="search"
+						className="relative m-0 -mr-0.5 block w-[1px] min-w-0 flex-auto rounded-l border bg-transparent bg-clip-padding px-3 py-0  text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none dark:border-neutral-600 dark:text-neutral-200 dark:placeholder:text-black dark:focus:border-primary"
+						placeholder="Search Here..."
+						aria-label="Search"
+						aria-describedby="button-addon3"
+					/>
+					<button
+						className="relative z-[2] bg-[#FF444A] text-white rounded-r-lg border-2 border-primary px-6 py-3 text-xs font-medium uppercase text-primary transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-60 focus:outline-none focus:ring-0"
+						type="button"
+						id="button-addon3"
+						data-te-ripple-init
+					>
+						Search
+					</button>
+				</div> */}
+			{/* </div> */}
+			{/* <div className="searchbar absolute bottom-[43%] justify-center px-20">
             <form >
                <label className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">
                   Search
@@ -62,8 +78,8 @@ const Banner = () => {
                </div>
             </form>
          </div> */}
-      </div>
-   );
+		</div>
+	);
 };
 
 export default Banner;
