@@ -1,7 +1,14 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-const DonationCard = ({ cards }) => {
+const DonationCard = ({ cards, getSearchResult }) => {
 	const { id, picture, title, category, card_bg, text_color, dynamicColor, btn_bg } = cards;
+
+	useEffect(()=>{
+		if (getSearchResult) {
+			
+		}
+	},[])
 
 	return (
 		<Link to={`/donation/${id}`}>
