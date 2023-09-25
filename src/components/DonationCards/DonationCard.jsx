@@ -3,14 +3,6 @@ import { Link } from "react-router-dom";
 const DonationCard = ({ cards }) => {
 	const { id, picture, title, category, card_bg, text_color, btn_bg } = cards;
 
-   const color = {
-      blue: "text-blue-500",
-      red: "text-red-500",
-      green: "text-green-500",
-      amber: "text-[#9f1239]",
-    };
-    
-
 	return (
 		<Link to={`/donation/${id}`}>
          <div className={`border border-gray-200 rounded-lg shadow ${card_bg} bg-opacity-20 dark:border-gray-300`}>
