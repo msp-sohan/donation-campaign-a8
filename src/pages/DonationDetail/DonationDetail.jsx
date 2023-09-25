@@ -17,7 +17,7 @@ const DonationDetail = () => {
 	}, [details, idInt]);
 
 	return (
-		<div>
+		<div className="px-3">
          {
             <Details donations={donations}></Details>
          }
