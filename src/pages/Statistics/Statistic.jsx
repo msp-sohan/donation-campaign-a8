@@ -31,7 +31,7 @@ const Statistic = ({ totalDonation, givenDonation }) => {
 		["Total Donation", 100 - percentage],
 	];
 	return (
-		<div className="relative z-10"> 
+		<div className="relative z-0 bg-transparent"> 
 			<h2 className="text-center mt-8 text-2xl lg:text-3xl absolute z-20 flex justify-center w-full font-medium">My Donation Statistics</h2>
 			<div className="absolute top-0 z-0 flex justify-center items-center w-full">
 				<Chart chartType="PieChart" data={data} options={options} width={"100%"} height={"700px"} />

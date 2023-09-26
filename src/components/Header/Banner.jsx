@@ -11,11 +11,11 @@ const Banner = ({ onSearch }) => {
 	};
 
 	return (
-		<div className="h-[70vh] relative bg-black bg-opacity-10 mx-auto flex flex-col justify-center items-center">
-			<img className="h-full w-full opacity-10 bg-opacity-25 bg-black " src="https://i.ibb.co/FmHySkB/Rectangle-4281.jpg" alt="" />
+		<div className="h-[90vh]  absolute z-0 top-0 left-0 right-0 bg-black bg-opacity-10 mx-auto flex flex-col justify-center items-center">
+			<img className="h-full w-full opacity-10 bg-opacity-25 bg-black object-cover" src="https://i.ibb.co/FmHySkB/Rectangle-4281.jpg" alt="" />
 			<div className="absolute text-center">
-				<h1 className="text-5xl mb-10 px-3 xl:px-0 font-bold">I Grow By Helping People In Need</h1>
-				<form onSubmit={handleSearch} className="my-3 px-5 xl:px-0 relative flex w-full flex-wrap items-stretch">
+				<h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-10 px-3 xl:px-0 font-bold">I Grow By Helping People In Need</h1>
+				<form onSubmit={handleSearch} className="my-3 px-5 xl:px-0 relative flex justify-center w-[90vw] md:w-[60vw] lg:w-[50vw] xl:w-[30vw] items-stretch mx-auto">
 					<input
 						type="search"
 						name="search"

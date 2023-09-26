@@ -21,7 +21,7 @@ const Statistics = () => {
 	}, [donations]);
 
 	return (
-		<div className="container mx-auto">
+		<div className="container mx-auto bg-transparent">
 			{
 				noDataFound ? <Statistic totalDonation={100} givenDonation={0} /> : <div>
 					<Statistic totalDonation={totalDonation} givenDonation={givenDonation} />
