@@ -26,7 +26,7 @@ const AllDonation = () => {
 	return (
 		<div>
 			{noDataFound ? (
-				<p className="h-[70vh] text-4xl font-semibold flex justify-center items-center">You dont give any Donation yet..</p>
+				<p className="h-[70vh] text-center text-4xl font-semibold flex justify-center items-center">You dont give any Donation yet..</p>
 			) : (
 				<div>
 					{donations.length > 0 && (
